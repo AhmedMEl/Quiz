@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="question_sanaa">Sana\'a is the capital of Yemen.</string>
+    <string name="question_cairo">Cairo is the capital of Syria.</string>
+    <string name="question_baghdad">Baghdad is the capital of Algeria.</string>
+    <string name="question_oman">Muscat is the capital of Oman.</string>
+    <string name="question_syria">Damascus is the capital of Syria.</string>
+    <string name="question_yemen">Yemen is located on the continent of Asia.</string>
+
+    <string name="question_india">New Delhi is the capital of Ireland.</string>
+    <string name="question_iran">Tehran is the capital of Iran.</string>
+    <string name="question_rome">Rome is the capital of Italy.</string>
+    <string name="question_japan">Kingston is the capital of Japan.</string>
+    <string name="question_libya">Tripoli is the capital of Libya.</string>
+    <string name="question_argentina">Baku is the capital of Argentina.</string>
+
+    <string name="question_australia">Canberra is the capital of Australia.</string>
+    <string name="question_oceans">The Pacific Ocean is larger than the Atlantic Ocean.</string>
+    <string name="question_mideast">The Suez Canal connects the Red Sea and the Indian Ocean.</string>
+    <string name="question_africa">The source of the Nile River is in Egypt.</string>
+    <string name="question_americas">The Amazon River is the longest river in the Americas.</string>
+    <string name="question_asia">Lake Baikal is the world\'s oldest and deepest freshwater lake.</string>
+
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="next_button">Next</string>
+    <string name="Previous_button">PREV</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="warning_text">warning text</string>
+    <string name="show_answer_button">show answer button</string>
+    <string name="cheat_button">cheat button</string>
+    <string name="home">Home</string>
+    <string name="result">Result</string>
+</resources>
