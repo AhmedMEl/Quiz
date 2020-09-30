@@ -13,6 +13,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
     private var degree = 0
     private var stateBtn = 0
+    private var cheatNumber=0
     private lateinit var cheatButton: Button
     private val quizViewModel: QuizViewModel by lazy {
         ViewModelProviders.of(this).get(QuizViewModel::class.java)
@@ -26,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         cheatButton = findViewById(R.id.cheat_button)
 
         cheatButton.setOnClickListener {
+            cheatNumber+=1
             quizViewModel.currentQuestionStateCheat=1
             val answerIsTrue = quizViewModel.currentQuestionAnswer
             val intent = CheatActivity.newIntent(this@MainActivity, answerIsTrue)
@@ -87,6 +89,10 @@ class MainActivity : AppCompatActivity() {
             btn_false.isEnabled=true
             btn_true.isEnabled=true
         }
+
+        if (cheatNumber==3){
+            cheatButton.isEnabled=false
+        }
     }
 
     @SuppressLint("SetTextI18n")
@@ -127,6 +133,7 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("Degree",degree)
             startActivity(intent)
             degree=0
+            cheatNumber=0
         }
     }
 

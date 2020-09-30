@@ -5,20 +5,27 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical">
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="24dp"
-        android:text="@string/warning_text"/>
+
     <TextView
         android:id="@+id/answer_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:padding="24dp"
-        tools:text="Answer"/>
+        tools:text=" Are your sure answer ? "/>
     <Button
         android:id="@+id/show_answer_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#aaa"
+        android:backgroundTintMode="screen"
+        android:textColor="#fff"
         android:text="@string/show_answer_button"/>
+    <TextView
+        android:id="@+id/api_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="@string/api_version"/>
 </LinearLayout>

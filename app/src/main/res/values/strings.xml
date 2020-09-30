@@ -32,4 +32,6 @@
     <string name="cheat_button">cheat button</string>
     <string name="home">Home</string>
     <string name="result">Result</string>
+    <string name="api_version">API Version</string>
+    <string name="the_degree">The Degree Is 0</string>
 </resources>
